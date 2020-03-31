@@ -2,6 +2,7 @@
 <html lang="ko">
   <body>
     <form action="https://postman-echo.com/get" method="post">
+      
       <fieldset>
         <legend>신청 과목1</legend>
         <p>이 달에 신청할 과목을 선택하세요 (1과목만 가능)</p>
@@ -13,6 +14,7 @@
         <label><input type="radio" name="subject2" value="grammar">문법</label>
         <label><input type="radio" name="subject2" value="writing">작문</label>
       </fieldset>
+      
       <fieldset>
         <legend>메일링</legend>
         <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요 (복수 선택 가능)</p>
@@ -20,7 +22,9 @@
         <label><input type="checkbox" name="mailing2" value="dialog">5분 회화</label>
         <label><input type="checkbox" name="mailing3" value="pops">모닝팝스</label>
       </fieldset>
-      <input type="submit" value="submit"> <input type="reset" value="reset">
+      
+      <br><input type="submit" value="submit">
+      <br><input type="reset" value="reset">
     </form>
   </body>
 </html>
