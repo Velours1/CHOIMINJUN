@@ -5,4 +5,4 @@
   + HTML basic<br>
 - [3rd  Week](https://velours1.github.io/CHOIMINJUN/third.html "3주차 과제")<br>
   + Test, tag, image, form<br>
-- [test](https://velours1.github.io/CHOIMINJUN/third.md "3주차 과제")<br>
+- [test](https://github.com/Velours1/CHOIMINJUN/blob/master/third.md "3주차 과제")<br>
