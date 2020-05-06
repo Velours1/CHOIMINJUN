@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    doc01 = {
+      const n1 = "n<sub>1</sub>"
+      const n2 = "n<sub>2</sub>"
+      return html'
+      <form> action="javascript:void()" sytle="width: min-content">
+        <fieldset style = "width: max-content; border-style: none none solid none;">
+          <label>${n1} = <input id="num1" type="number" value="0"></label>
+          <br>
+          <label>${n2} = <input id="num2" type="number" value="0"></label>
+        </fieldset>
+        <div sytle="margin": 0.5em">
+        </div>
+          ${n1} + ${n2} = <output id="sum"></output>
+          <button id ="calc" sytle="float:" right;">계산</button>          
+        </div>
+      </form>
+    }
+</script>    
+</body>
+</html> 
